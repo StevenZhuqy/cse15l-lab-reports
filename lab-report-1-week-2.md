@@ -1,7 +1,8 @@
 # CSE15LSP22 Lab Report 1
-## *Qingy Zhu*
+*By Qingy Zhu*
 
-Tutorial for incoming students
+## Tutorial for incoming students:
+
 ---
 * First Step:
 
