@@ -8,7 +8,7 @@ This webpage is created by *QingyuZhu*
 
 [This is the link to the course webpage](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home?authuser=0)
 
-![Car Pic](https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe)
+![Pic1](https://media.istockphoto.com/photos/programming-source-code-abstract-background-picture-id1047259374?k=20&m=1047259374&s=612x612&w=0&h=pt3XbBvrmiYgoYmVzsaUeXtV8vw_jJI9Ly8P7AL6Qig=)
 
 * ListItem1
 * ListItem2
