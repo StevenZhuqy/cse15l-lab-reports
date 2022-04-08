@@ -18,7 +18,7 @@ This webpage is created by *QingyuZhu*
 2. Two
 3. Three
 
-` while(true) ` This is an indented code
+`while(true)` This is an indented code
 
 ```
 # code block
