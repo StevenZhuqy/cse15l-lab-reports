@@ -1,7 +1,7 @@
 # CSE15LSP22 Lab Report 1
 *By Qingyu Zhu*
 
-## **Tutorial on Remote Server Log-in:**
+## __Tutorial on Remote Server Log-in:__
 
 ---
 ## First Step - Installing VScode: 
