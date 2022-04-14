@@ -47,12 +47,14 @@
 ![Image6](Key_Set_2.png)
 
 ## Sixth Step - Optimizing Remote Running:
-* (1) Write a command in quotes at the end of a `ssh` command will run this command directly on the server;  
-  (2)Add semicolons between commands would let you run multiple commands on one line.
+* (1) Write a command in quotes at the end of a `ssh` command will run this command directly on the server;
+
+  (2) Add semicolons between commands would let you run multiple commands on one line.
 
 * Then we can run `scp WhereAmI.java cs15lsp22apq@ieng6.ucsd.edu:~/WhereAmI.java` and then `ssh cs15lsp22apq@ieng6.ucsd.edu "javac WhereAmI.java ; java WhereAmI"`, which are more convenient.
 
 ![Image7](Step6.png)
+
 
 
 
