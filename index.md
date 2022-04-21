@@ -11,7 +11,7 @@ This webpage is created by *QingyuZhu*
 ![Pic1](https://media.istockphoto.com/photos/programming-source-code-abstract-background-picture-id1047259374?k=20&m=1047259374&s=612x612&w=0&h=pt3XbBvrmiYgoYmVzsaUeXtV8vw_jJI9Ly8P7AL6Qig=)
 
 * [Lab Report 1](lab-report-1-week-2.html)
-* [Lab Report 2](lab-report-2-weeek-4.html)
+* [Lab Report 2](lab-report-2-week-4.html)
 * ListItem3
 
 1. One
