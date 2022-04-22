@@ -36,7 +36,7 @@
 **Underlying logistics:**
 * The potential bug in our code is that it cannot distinguish between an image and a link in *Markdown* language. It can only extract things between two parentheses。
 
-* The failure-inducing input file contains only an image and no link. Our code, ideally, should've returned an empty list with no link, yet the photo reference is returned, which is the sympton for this bug.
+* The failure-inducing input file contains only an image and no link. Our code, ideally, should've returned an empty list with no link, yet the photo reference is returned, which is the symptom for this bug.
 
 * Fixing it, we can use a `if` statement to determine whether a bracket-parenthesis set represents a link or an image by searching for "!".
 
@@ -44,3 +44,22 @@
 ## Modification #3:
 
 **Detailed code changes:**
+![Image5](diff3.png)
+
+[**Test File**](https://github.com/StevenZhuqy/markdown-parser/blob/main/test-file5.md) that induces a failure to the code.
+
+**Symptom:** returning something that is not essentially a link in *Markdown*
+![Image6](symptom3.png)
+
+**Underlying logistics:**
+* Again, the potential bug in our code is that it doesn't take into consideration the spaces between bracket-parenthesis pairs, as, in *Markdown*, links can only be validly represented with bracket-parenthesis pairs that are closely connected in right order.
+
+* The input file has texts in brackets and parentheses that're not actually links since there're many spaces in between. However, contents, not links, between the parentheses are returned, which is the symptom for this bug.
+
+* Fixing it, we can add another condition into our `if` statement to include only the cases where bracket-parenthesis pairs are closely connected, namely those valid links.
+
+
+
+
+
+---
