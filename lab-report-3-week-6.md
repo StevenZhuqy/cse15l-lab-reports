@@ -26,7 +26,24 @@
 
 ## Setup Github Access from ieng6:
 
+***public key:***
+![Image8](public_key.png)
 
+***private key:***
+![Image9](private_key.png)
+
+***commit and push on ieng6:***
+![Image10](commit_push.png)
+
+[This is the link](https://github.com/StevenZhuqy/markdown-parser/commit/4137121fa8e4414d1e240cdd2ab3f51375d0e726) for the resulting commit.
+
+
+***Description:***
+* In order to make, commit, and push changes to our Github repository from a remote server like ieng6, we need to setup a key pair between the server and Github.
+
+* After creating a public ssh key on ieng6 server using `ssh-keygen`, we should copy this key to Github so that a private key can be as well created on Github.
+
+* With the key-connection being set up, we can now commit and push our changes from the server to Github directly.
 
 
 ## Copy whole directories with `scp -r`:
@@ -35,4 +52,11 @@
 ![Image4](scpr_1.png)
 ...
 ![Image5](scpr_2.png)
+
+***logging in, compiling, and running tests:***
+![Image6](login_after_scpr.png)
+![Image7](compile_run_tests.png)
+
+***integrating operations in one line:***
+
 
