@@ -30,3 +30,9 @@
 
 
 ## Copy whole directories with `scp -r`:
+
+***copying the whole directory:***
+![Image4](scpr_1.png)
+...
+![Image5](scpr_2.png)
+
