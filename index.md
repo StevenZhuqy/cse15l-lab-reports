@@ -1,6 +1,6 @@
 # CSE15L Lab Reports
 
-## Section1
+## SectionA00
 
 **Hello CSE 15L!**
 
@@ -8,16 +8,19 @@ This webpage is created by *QingyuZhu*
 
 [This is the link to the course webpage](https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/home?authuser=0)
 
-![Pic1](https://media.istockphoto.com/photos/programming-source-code-abstract-background-picture-id1047259374?k=20&m=1047259374&s=612x612&w=0&h=pt3XbBvrmiYgoYmVzsaUeXtV8vw_jJI9Ly8P7AL6Qig=)
+
+***Lab Reports:***
 
 * [Lab Report 1](lab-report-1-week-2.html)
 * [Lab Report 2](lab-report-2-week-4.html)
 * [Lab Report 3](lab-report-3-week-6.html)
 * To be continued...
 
-1. One
-2. Two
-3. Three
+
+---
+
+
+![Pic1](https://media.istockphoto.com/photos/programming-source-code-abstract-background-picture-id1047259374?k=20&m=1047259374&s=612x612&w=0&h=pt3XbBvrmiYgoYmVzsaUeXtV8vw_jJI9Ly8P7AL6Qig=)
 
 `while(true)` This is an indented code
 
@@ -25,7 +28,6 @@ This webpage is created by *QingyuZhu*
 # code block
 System.out.println("Hello World!");
 ```
-Word added offline
 
 This is the bottom of the page
 ---
