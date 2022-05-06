@@ -60,6 +60,12 @@
 ![Image11](one_line.png)
 
 ***Description:***
-* 
+* The command `scp -r` provides us with a convenient way to copy a whole directory (including all the files and directories within it) to the remote server.
+
+* By using notations such as `;` and `" "`, we can further simplify our steps as they enable us to run multiple operations, including copying, compiling, and testing, in one single line.
 
 
+
+
+
+---
