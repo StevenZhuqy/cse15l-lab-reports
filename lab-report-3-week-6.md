@@ -37,7 +37,6 @@
 
 [This is the link](https://github.com/StevenZhuqy/markdown-parser/commit/4137121fa8e4414d1e240cdd2ab3f51375d0e726) for the resulting commit.
 
-
 ***Description:***
 * In order to make, commit, and push changes to our Github repository from a remote server like ieng6, we need to setup a key pair between the server and Github.
 
@@ -58,5 +57,9 @@
 ![Image7](compile_run_tests.png)
 
 ***integrating operations in one line:***
+![Image11](one_line.png)
+
+***Description:***
+* 
 
 
