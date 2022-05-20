@@ -11,6 +11,8 @@
 
 [This is the link](https://github.com/Miyuki-L/markdown-parser) to the markdown-parse repository that I reviewed
 
+---
+
 ## For Snippet #1:
 
 ***Expected Output:*** [`google.com, google.com, ucsd.edu]
@@ -58,5 +60,27 @@ integrated parts of the code style in Markdown.
 
 ## For Snippet #3:
 
-***Expected Output:*** 
+***Expected Output:*** [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
+![Image9](preview_3.png)
 
+***JUnit Test for Snippet#3:***
+![Image10](test3.png)
+
+***Test Output for My Implementation:*** Test Failed
+![Image11](test_3_my.png)
+
+***Test Output for the Other Implementation:*** Test Failed
+![Image12](test_3_other.png)
+
+***Answer to Question regarding Snippet#3:***
+* Yes, a small code change would make my program work for cases like snippet 3.
+
+* My program is already able to handle cases that have spaces between parentheses, and now it only need to check situations of newlines in brackets and parentheses.
+
+* Two if-statements can be added to my program to examine cases of single newline and multiple newlines, helping the program to skip through the cases of multiple `\n` and add only those valid links to the list to be returned *(Single newline, which is valid link format, should be discarded when adding to list)*.
+
+
+
+
+
+---
