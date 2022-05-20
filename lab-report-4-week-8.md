@@ -73,7 +73,7 @@ integrated parts of the code style in Markdown.
 ![Image12](test_3_other.png)
 
 ***Answer to Question regarding Snippet#3:***
-* Yes, a small code change would make my program work for cases like snippet 3.
+* Yes, a small code change would make my program work for cases like snippet 3, as my program's output is already pretty close to the expected output.
 
 * My program is already able to handle cases that have spaces between parentheses, and now it only need to check situations of newlines in brackets and parentheses.
 
