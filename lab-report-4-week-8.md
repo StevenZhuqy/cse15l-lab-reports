@@ -17,6 +17,7 @@
 
 ***Expected Output:*** [`google.com, google.com, ucsd.edu]
 ![Image1](preview_1.png)
+*(Preview from VScode)*
 
 ***JUnit Test for Snippet#1:***
 ![Image2](test1.png)
@@ -40,6 +41,7 @@ integrated parts of the code style in Markdown.
 
 ***Expected Output:*** [a.com, a.com(()), example.com]
 ![Image5](preview_2.png)
+*(Preview from VScode)*
 
 ***JUnit Test for Snippet#2:***
 ![Image6](test2.png)
@@ -62,6 +64,7 @@ integrated parts of the code style in Markdown.
 
 ***Expected Output:*** [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
 ![Image9](preview_3.png)
+*(Preview from VScode)*
 
 ***JUnit Test for Snippet#3:***
 ![Image10](test3.png)
