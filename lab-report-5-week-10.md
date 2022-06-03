@@ -39,3 +39,26 @@
 
 ## For Test-file #2:
 
+***Expected Output:*** []
+![Image6](574output.png)
+
+***Actual Outputs:*** (Above: mine; Below: provided)
+![Image7](574myop.png)
+
+![Image8](574pop.png)
+
+* For this test-file, my implementation is correct as it produces the expected output. However, the provided implementation gives a wrong output.
+
+* The problem with the provided implementation is that it does not take into account the checking of exclamation mark, which, in Markdown, separates photos from valid links.
+
+* This leads to the bug output since it regards the photo link as a valid link to return.
+
+* One more if-statement could be added to the program that checks specifically for exclamation marks in front of the outer bracket before adding a link to the returned list (as screenshot below).
+
+![Image9](fix2.png)
+
+
+
+
+
+---
