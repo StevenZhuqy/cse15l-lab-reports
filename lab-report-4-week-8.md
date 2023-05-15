@@ -16,17 +16,17 @@
 ## For Snippet #1:
 
 ***Expected Output:*** [`google.com, google.com, ucsd.edu]
-![Image1](preview_1.png)
+![Image1](./pic/preview_1.png)
 *(Preview from VScode)*
 
 ***JUnit Test for Snippet#1:***
-![Image2](test1.png)
+![Image2](./pic/test1.png)
 
 ***Test Output for My Implementation:*** Test Failed
-![Image3](test_1_my.png)
+![Image3](./pic/test_1_my.png)
 
 ***Test Output for the Other Implementation:*** Test Failed
-![Image4](test_1_other.png)
+![Image4](./pic/test_1_other.png)
 
 ***Answer to Question regarding Snippet#1:***
 * Yes, I think the program can function properly for snippet 1 and its related cases with a small code change less than 10 lines.
@@ -40,17 +40,17 @@ integrated parts of the code style in Markdown.
 ## For Snippet #2:
 
 ***Expected Output:*** [a.com, a.com(()), example.com]
-![Image5](preview_2.png)
+![Image5](./pic/preview_2.png)
 *(Preview from VScode)*
 
 ***JUnit Test for Snippet#2:***
-![Image6](test2.png)
+![Image6](./pic/test2.png)
 
 ***Test Output for My Implementation:*** Test Failed
-![Image7](test_2_my.png)
+![Image7](./pic/test_2_my.png)
 
 ***Test Output for the Other Implementation:*** Test Failed
-![Image8](test_2_other.png)
+![Image8](./pic/test_2_other.png)
 
 ***Answer to Question regarding Snippet#2:***
 * No, I don't think a small code change will make the program work for snippet 2 and its related cases, and a more involved change is needed.
@@ -63,17 +63,17 @@ integrated parts of the code style in Markdown.
 ## For Snippet #3:
 
 ***Expected Output:*** [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
-![Image9](preview_3.png)
+![Image9](./pic/preview_3.png)
 *(Preview from VScode)*
 
 ***JUnit Test for Snippet#3:***
-![Image10](test3.png)
+![Image10](./pic/test3.png)
 
 ***Test Output for My Implementation:*** Test Failed
-![Image11](test_3_my.png)
+![Image11](./pic/test_3_my.png)
 
 ***Test Output for the Other Implementation:*** Test Failed
-![Image12](test_3_other.png)
+![Image12](./pic/test_3_other.png)
 
 ***Answer to Question regarding Snippet#3:***
 * Yes, a small code change would make my program work for cases like snippet 3, as my program's output is already pretty close to the expected output.

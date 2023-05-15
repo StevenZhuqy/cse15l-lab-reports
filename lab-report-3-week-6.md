@@ -8,13 +8,13 @@
 ## Streamlining ssh Configuration:
 
 ***.ssh/config file using VScode:***
-![Image1](config_file.png)
+![Image1](./pic/config_file.png)
 
 ***ssh login:***
-![Image2](ssh_login.png)
+![Image2](./pic/ssh_login.png)
 
 ***scp command:***
-![Image3](scp_command.png)
+![Image3](./pic/scp_command.png)
 
 ***Description:***
 * In order to save some typing during ssh-logins, we can take advantage by creating a configuration file that specifies a username when logging into a server.
@@ -27,13 +27,13 @@
 ## Setup Github Access from ieng6:
 
 ***public key:***
-![Image8](public_key.png)
+![Image8](./pic/public_key.png)
 
 ***private key:***
-![Image9](private_key.png)
+![Image9](./pic/private_key.png)
 
 ***commit and push on ieng6:***
-![Image10](commit_push.png)
+![Image10](./pic/commit_push.png)
 
 [This is the link](https://github.com/StevenZhuqy/markdown-parser/commit/4137121fa8e4414d1e240cdd2ab3f51375d0e726) for the resulting commit.
 
@@ -48,16 +48,16 @@
 ## Copy whole directories with `scp -r`:
 
 ***copying the whole directory:***
-![Image4](scpr_1.png)
+![Image4](./pic/scpr_1.png)
 ...
-![Image5](scpr_2.png)
+![Image5](./pic/scpr_2.png)
 
 ***logging in, compiling, and running tests:***
-![Image6](login_after_scpr.png)
-![Image7](compile_run_tests.png)
+![Image6](./pic/login_after_scpr.png)
+![Image7](./pic/compile_run_tests.png)
 
 ***integrating operations in one line:***
-![Image11](one_line.png)
+![Image11](./pic/one_line.png)
 
 ***Description:***
 * The command `scp -r` provides us with a convenient way to copy a whole directory (including all the files and directories within it) to the remote server.

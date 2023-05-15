@@ -8,7 +8,7 @@
 ## Identifying tests with different results:
 
 ***Using `vimdiff` to show the tests that give different results:***
-![Image1](vimdiff.png)
+![Image1](./pic/vimdiff.png)
 
 ***Links to the test-file with different results:***
 
@@ -21,12 +21,12 @@
 ## For Test-file #1:
 
 ***Expected Output:*** []
-![Image2](496output.png)
+![Image2](./pic/496output.png)
 
 ***Actual Outputs:*** (Above: mine; Below: provided)
-![Image3](496myop.png)
+![Image3](./pic/496myop.png)
 
-![Image4](496pop.png)
+![Image4](./pic/496pop.png)
 
 * For this test-file, the provided implementation is correct as it produces the expected output. However, my own implementation gives a wrong output.
 
@@ -34,18 +34,18 @@
 
 * More if-statements with more rigorous conditions that check for nested or escaped parentheses should be added before adding a valid link to the returned list (as screenshot below).
 
-![Image5](fix1.png)
+![Image5](./pic/fix1.png)
 
 
 ## For Test-file #2:
 
 ***Expected Output:*** []
-![Image6](574output.png)
+![Image6](./pic/574output.png)
 
 ***Actual Outputs:*** (Above: mine; Below: provided)
-![Image7](574myop.png)
+![Image7](./pic/574myop.png)
 
-![Image8](574pop.png)
+![Image8](./pic/574pop.png)
 
 * For this test-file, my implementation is correct as it produces the expected output. However, the provided implementation gives a wrong output.
 
@@ -55,7 +55,7 @@
 
 * One more if-statement could be added to the program that checks specifically for exclamation marks in front of the outer bracket before adding a link to the returned list (as screenshot below).
 
-![Image9](fix2.png)
+![Image9](./pic/fix2.png)
 
 
 

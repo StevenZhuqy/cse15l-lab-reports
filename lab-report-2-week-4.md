@@ -8,12 +8,12 @@
 ## Modification #1:
 
 **Detailed code changes:**
-![Image1](diff1.png)
+![Image1](./pic/diff1.png)
 
 [**Test File**](https://github.com/StevenZhuqy/markdown-parser/blob/main/test-file8.md) that induces a failure to the code.
 
 **Symptom:** causing an infinite loop
-![Image2](symptom1.png)
+![Image2](./pic/symptom1.png)
 
 **Underlying logistics:**
 * In our code, it's assumed that a pair of brackets and a pair of parentheses form a set, and they appear in the input file in complete sets so that we can easily search and locate them to extract links in between. Such assumptions potentially lead to bugs in code.
@@ -26,12 +26,12 @@
 ## Modification #2:
 
 **Detailed code changes:**
-![Image3](diff2.png)
+![Image3](./pic/diff2.png)
 
 [**Test File**](https://github.com/StevenZhuqy/markdown-parser/blob/main/test-file6.md) that induces a failure to the code.
 
 **Symptom:** returning a photo reference instead of a website link
-![Image4](symptom2.png)
+![Image4](./pic/symptom2.png)
 
 **Underlying logistics:**
 * The potential bug in our code is that it cannot distinguish between an image and a link in *Markdown* language. It can only extract things between two parentheses。
@@ -44,12 +44,12 @@
 ## Modification #3:
 
 **Detailed code changes:**
-![Image5](diff3.png)
+![Image5](./pic/diff3.png)
 
 [**Test File**](https://github.com/StevenZhuqy/markdown-parser/blob/main/test-file5.md) that induces a failure to the code.
 
 **Symptom:** returning something that is not essentially a link in *Markdown*
-![Image6](symptom3.png)
+![Image6](./pic/symptom3.png)
 
 **Underlying logistics:**
 * Again, the potential bug in our code is that it doesn't take into consideration the spaces between bracket-parenthesis pairs, as, in *Markdown*, links can only be validly represented with bracket-parenthesis pairs that are closely connected in right order.
